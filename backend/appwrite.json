@@ -1,0 +1,20 @@
+{
+    "projectId": "63590f0f0d50b6613f0a",
+    "projectName": "Transcriptions",
+    "functions": [
+        {
+            "$id": "63601a3e0848b4d5b762",
+            "name": "Topic Youtube",
+            "runtime": "python-3.9",
+            "path": "functions/Topic Youtube",
+            "entrypoint": "src/index.py",
+            "ignore": [
+                "__pypackages__"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
