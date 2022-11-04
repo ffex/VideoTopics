@@ -1,12 +1,12 @@
 {
-    "projectId": "63590f0f0d50b6613f0a",
+    "projectId": "transcriptions",
     "projectName": "Transcriptions",
     "functions": [
         {
-            "$id": "63601a3e0848b4d5b762",
-            "name": "Topic Youtube",
+            "$id": "topicYouTube",
+            "name": "topicYoutube",
             "runtime": "python-3.9",
-            "path": "functions/Topic Youtube",
+            "path": "functions/topicYoutube",
             "entrypoint": "src/index.py",
             "ignore": [
                 "__pypackages__"
@@ -14,7 +14,7 @@
             "execute": [],
             "events": [],
             "schedule": "",
-            "timeout": 15
+            "timeout": 90
         }
     ]
 }

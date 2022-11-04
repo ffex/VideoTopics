@@ -9,9 +9,9 @@ export class AppwriteService {
     client: Client = new Client();
     functions: Functions = new Functions(this.client);
 
-    TOPIC_FUNCTION_ID = "63601a3e0848b4d5b762";
-    APPWRITE_PROJECT_ID = "63590f0f0d50b6613f0a";
-    APPWRITE_ENDPOINT = "http://192.168.1.11/v1";
+    TOPIC_FUNCTION_ID = "topicYoutube";
+    APPWRITE_PROJECT_ID = "transcriptions";
+    APPWRITE_ENDPOINT = "[YOUR_APPWRITE_ENDPOINT]";
 
     setupSDK(): void {
         this.client
